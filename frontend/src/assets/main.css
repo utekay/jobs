@@ -1,0 +1,64 @@
+:root {
+  --color-primary: DeepSkyBlue;
+  --color-black: #2c3e50;
+}
+
+html {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-black);
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+a,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: var(--color-primary);
+  border-bottom: 1px dashed;
+}
+
+h1 {
+  line-height: 2.4rem;
+}
+
+
+.button {
+  padding: 7px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.button_primary {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: white;
+}
+.button_secondary {
+  background-color: white;
+  color: var(--color-primary);
+  border: none;
+}
+
+.input {
+  padding: 5px 15px 5px 0;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--color-black);
+  border: none;
+  border-bottom: 2px solid var(--color-primary);
+}
